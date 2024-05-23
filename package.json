@@ -1,0 +1,15 @@
+{
+  "name": "bps-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "timestamp=$(date \"+%D %T\"); echo \"<html><body><h1>Built at: $timestamp</h1></body></html>\" > public/index.html",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
